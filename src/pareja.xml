@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GoodreadsResponse>
+    <Request>
+        <authentication>true</authentication>
+        <key>
+            <![CDATA[WxrIkPORqNnXPgTZyxjQ]]>
+        </key>
+        <method>
+            <![CDATA[search_search]]>
+        </method>
+    </Request>
+    <search>
+        <query>
+            <![CDATA[story]]>
+        </query>
+        <results-start>1</results-start>
+        <results-end>20</results-end>
+        <total-results>469427</total-results>
+        <source>Goodreads</source>
+        <query-time-seconds>0.34</query-time-seconds>
+        <results>
+            <work>
+                <id type="integer">3364437</id>
+                <books_count type="integer">140</books_count>
+                <ratings_count type="integer">431423</ratings_count>
+                <text_reviews_count type="integer">22132</text_reviews_count>
+                <original_publication_year type="integer">2008</original_publication_year>
+                <original_publication_month type="integer" nil="true"/>
+                <original_publication_day type="integer" nil="true"/>
+                <average_rating>4.13</average_rating>
+                <best_book type="Book">
+                    <id type="integer">3228917</id>
+                    <title>Outliers: The Story of Success</title>
+                    <author>
+                        <id type="integer">1439</id>
+                        <name>Malcolm Gladwell</name>
+                    </author>
+                    <image_url>https://images.gr-assets.com/books/1344266315m/3228917.jpg</image_url>
+                    <small_image_url>https://images.gr-assets.com/books/1344266315s/3228917.jpg</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">215065</id>
+                <books_count type="integer">115</books_count>
+                <ratings_count type="integer">247410</ratings_count>
+                <text_reviews_count type="integer">666</text_reviews_count>
+                <original_publication_year type="integer">1950</original_publication_year>
+                <original_publication_month type="integer" nil="true"/>
+                <original_publication_day type="integer" nil="true"/>
+                <average_rating>3.89</average_rating>
+                <best_book type="Book">
+                    <id type="integer">222078</id>
+                    <title>The Story of Art</title>
+                    <author>
+                        <id type="integer">167112</id>
+                        <name>E.H. Gombrich</name>
+                    </author>
+                    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">12946965</id>
+                <books_count type="integer">98</books_count>
+                <ratings_count type="integer">647209</ratings_count>
+                <text_reviews_count type="integer">44152</text_reviews_count>
+                <original_publication_year type="integer">2010</original_publication_year>
+                <original_publication_month type="integer">11</original_publication_month>
+                <original_publication_day type="integer">16</original_publication_day>
+                <average_rating>4.38</average_rating>
+                <best_book type="Book">
+                    <id type="integer">8664353</id>
+                    <title>Unbroken: A World War II Story of Survival, Resilience and Redemption</title>
+                    <author>
+                        <id type="integer">30913</id>
+                        <name>Laura Hillenbrand</name>
+                    </author>
+                    <image_url>https://images.gr-assets.com/books/1327861115m/8664353.jpg</image_url>
+                    <small_image_url>https://images.gr-assets.com/books/1327861115s/8664353.jpg</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">2977727</id>
+                <books_count type="integer">428</books_count>
+                <ratings_count type="integer">269755</ratings_count>
+                <text_reviews_count type="integer">12114</text_reviews_count>
+                <original_publication_year type="integer">1985</original_publication_year>
+                <original_publication_month type="integer" nil="true"/>
+                <original_publication_day type="integer" nil="true"/>
+                <average_rating>4.02</average_rating>
+                <best_book type="Book">
+                    <id type="integer">343</id>
+                    <title>Perfume: The Story of a Murderer</title>
+                    <author>
+                        <id type="integer">39402</id>
+                        <name>Patrick Süskind</name>
+                    </author>
+                    <image_url>https://images.gr-assets.com/books/1409112276m/343.jpg</image_url>
+                    <small_image_url>https://images.gr-assets.com/books/1409112276s/343.jpg</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">240980</id>
+                <books_count type="integer">39</books_count>
+                <ratings_count type="integer">190653</ratings_count>
+                <text_reviews_count type="integer">9673</text_reviews_count>
+                <original_publication_year type="integer">2006</original_publication_year>
+                <original_publication_month type="integer">3</original_publication_month>
+                <original_publication_day type="integer">21</original_publication_day>
+                <average_rating>4.13</average_rating>
+                <best_book type="Book">
+                    <id type="integer">248704</id>
+                    <title>It's Kind of a Funny Story</title>
+                    <author>
+                        <id type="integer">11672</id>
+                        <name>Ned Vizzini</name>
+                    </author>
+                    <image_url>https://images.gr-assets.com/books/1420629730m/248704.jpg</image_url>
+                    <small_image_url>https://images.gr-assets.com/books/1420629730s/248704.jpg</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">30431</id>
+                <books_count type="integer">350</books_count>
+                <ratings_count type="integer">193822</ratings_count>
+                <text_reviews_count type="integer">2108</text_reviews_count>
+                <original_publication_year type="integer">1849</original_publication_year>
+                <original_publication_month type="integer" nil="true"/>
+                <original_publication_day type="integer" nil="true"/>
+                <average_rating>4.38</average_rating>
+                <best_book type="Book">
+                    <id type="integer">23919</id>
+                    <title>The Complete Stories and Poems</title>
+                    <author>
+                        <id type="integer">4624490</id>
+                        <name>Edgar Allan Poe</name>
+                    </author>
+                    <image_url>https://images.gr-assets.com/books/1327942676m/23919.jpg</image_url>
+                    <small_image_url>https://images.gr-assets.com/books/1327942676s/23919.jpg</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">1122661</id>
+                <books_count type="integer">279</books_count>
+                <ratings_count type="integer">140430</ratings_count>
+                <text_reviews_count type="integer">5327</text_reviews_count>
+                <original_publication_year type="integer">1979</original_publication_year>
+                <original_publication_month type="integer" nil="true"/>
+                <original_publication_day type="integer" nil="true"/>
+                <average_rating>4.18</average_rating>
+                <best_book type="Book">
+                    <id type="integer">27712</id>
+                    <title>The Neverending Story</title>
+                    <author>
+                        <id type="integer">15619</id>
+                        <name>Michael Ende</name>
+                    </author>
+                    <image_url>https://images.gr-assets.com/books/1554230952m/27712.jpg</image_url>
+                    <small_image_url>https://images.gr-assets.com/books/1554230952s/27712.jpg</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">1839377</id>
+                <books_count type="integer">164</books_count>
+                <ratings_count type="integer">124502</ratings_count>
+                <text_reviews_count type="integer">3909</text_reviews_count>
+                <original_publication_year type="integer">1953</original_publication_year>
+                <original_publication_month type="integer">4</original_publication_month>
+                <original_publication_day type="integer">6</original_publication_day>
+                <average_rating>4.19</average_rating>
+                <best_book type="Book">
+                    <id type="integer">4009</id>
+                    <title>Nine Stories</title>
+                    <author>
+                        <id type="integer">819789</id>
+                        <name>J.D. Salinger</name>
+                    </author>
+                    <image_url>https://images.gr-assets.com/books/1554892563m/4009.jpg</image_url>
+                    <small_image_url>https://images.gr-assets.com/books/1554892563s/4009.jpg</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">1602613</id>
+                <books_count type="integer">444</books_count>
+                <ratings_count type="integer">119726</ratings_count>
+                <text_reviews_count type="integer">2119</text_reviews_count>
+                <original_publication_year type="integer">1902</original_publication_year>
+                <original_publication_month type="integer" nil="true"/>
+                <original_publication_day type="integer" nil="true"/>
+                <average_rating>4.08</average_rating>
+                <best_book type="Book">
+                    <id type="integer">821611</id>
+                    <title>The Story of My Life</title>
+                    <author>
+                        <id type="integer">7275</id>
+                        <name>Helen Keller</name>
+                    </author>
+                    <image_url>https://images.gr-assets.com/books/1320429331m/821611.jpg</image_url>
+                    <small_image_url>https://images.gr-assets.com/books/1320429331s/821611.jpg</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">24987300</id>
+                <books_count type="integer">149</books_count>
+                <ratings_count type="integer">323963</ratings_count>
+                <text_reviews_count type="integer">18007</text_reviews_count>
+                <original_publication_year type="integer">2012</original_publication_year>
+                <original_publication_month type="integer">11</original_publication_month>
+                <original_publication_day type="integer">1</original_publication_day>
+                <average_rating>4.10</average_rating>
+                <best_book type="Book">
+                    <id type="integer">17851885</id>
+                    <title>I Am Malala: The Story of the Girl Who Stood Up for Education and Was Shot by the Taliban</title>
+                    <author>
+                        <id type="integer">7064545</id>
+                        <name>Malala Yousafzai</name>
+                    </author>
+                    <image_url>https://images.gr-assets.com/books/1375414895m/17851885.jpg</image_url>
+                    <small_image_url>https://images.gr-assets.com/books/1375414895s/17851885.jpg</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">50150838</id>
+                <books_count type="integer">47</books_count>
+                <ratings_count type="integer">194455</ratings_count>
+                <text_reviews_count type="integer">21352</text_reviews_count>
+                <original_publication_year type="integer">2016</original_publication_year>
+                <original_publication_month type="integer">11</original_publication_month>
+                <original_publication_day type="integer">15</original_publication_day>
+                <average_rating>4.45</average_rating>
+                <best_book type="Book">
+                    <id type="integer">29780253</id>
+                    <title>Born a Crime: Stories From a South African Childhood</title>
+                    <author>
+                        <id type="integer">15149526</id>
+                        <name>Trevor Noah</name>
+                    </author>
+                    <image_url>https://images.gr-assets.com/books/1473867911m/29780253.jpg</image_url>
+                    <small_image_url>https://images.gr-assets.com/books/1473867911s/29780253.jpg</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">86032</id>
+                <books_count type="integer">103</books_count>
+                <ratings_count type="integer">163540</ratings_count>
+                <text_reviews_count type="integer">6672</text_reviews_count>
+                <original_publication_year type="integer">1995</original_publication_year>
+                <original_publication_month type="integer">7</original_publication_month>
+                <original_publication_day type="integer">18</original_publication_day>
+                <average_rating>3.85</average_rating>
+                <best_book type="Book">
+                    <id type="integer">88061</id>
+                    <title>Dreams from My Father: A Story of Race and Inheritance</title>
+                    <author>
+                        <id type="integer">6356</id>
+                        <name>Barack Obama</name>
+                    </author>
+                    <image_url>https://images.gr-assets.com/books/1352340675m/88061.jpg</image_url>
+                    <small_image_url>https://images.gr-assets.com/books/1352340675s/88061.jpg</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">2207778</id>
+                <books_count type="integer">1274</books_count>
+                <ratings_count type="integer">2318637</ratings_count>
+                <text_reviews_count type="integer">44976</text_reviews_count>
+                <original_publication_year type="integer">1945</original_publication_year>
+                <original_publication_month type="integer">8</original_publication_month>
+                <original_publication_day type="integer">17</original_publication_day>
+                <average_rating>3.91</average_rating>
+                <best_book type="Book">
+                    <id type="integer">3149348</id>
+                    <title>Animal Farm: A Fairy Story</title>
+                    <author>
+                        <id type="integer">3706</id>
+                        <name>George Orwell</name>
+                    </author>
+                    <image_url>https://images.gr-assets.com/books/1299097929m/3149348.jpg</image_url>
+                    <small_image_url>https://images.gr-assets.com/books/1299097929s/3149348.jpg</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">3532896</id>
+                <books_count type="integer">897</books_count>
+                <ratings_count type="integer">2368158</ratings_count>
+                <text_reviews_count type="integer">24646</text_reviews_count>
+                <original_publication_year type="integer">1947</original_publication_year>
+                <original_publication_month type="integer" nil="true"/>
+                <original_publication_day type="integer" nil="true"/>
+                <average_rating>4.12</average_rating>
+                <best_book type="Book">
+                    <id type="integer">6340563</id>
+                    <title>Anne Frank: The Story of a Young Girl: Simplified Characters</title>
+                    <author>
+                        <id type="integer">3720</id>
+                        <name>Anne Frank</name>
+                    </author>
+                    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">3303888</id>
+                <books_count type="integer">41</books_count>
+                <ratings_count type="integer">137841</ratings_count>
+                <text_reviews_count type="integer">7869</text_reviews_count>
+                <original_publication_year type="integer">2000</original_publication_year>
+                <original_publication_month type="integer" nil="true"/>
+                <original_publication_day type="integer" nil="true"/>
+                <average_rating>4.24</average_rating>
+                <best_book type="Book">
+                    <id type="integer">9516</id>
+                    <title>Persepolis: The Story of a Childhood (Persepolis, #1)</title>
+                    <author>
+                        <id type="integer">6238</id>
+                        <name>Marjane Satrapi</name>
+                    </author>
+                    <image_url>https://images.gr-assets.com/books/1425871473m/9516.jpg</image_url>
+                    <small_image_url>https://images.gr-assets.com/books/1425871473s/9516.jpg</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">2223519</id>
+                <books_count type="integer">28</books_count>
+                <ratings_count type="integer">111068</ratings_count>
+                <text_reviews_count type="integer">4626</text_reviews_count>
+                <original_publication_year type="integer">1954</original_publication_year>
+                <original_publication_month type="integer" nil="true"/>
+                <original_publication_day type="integer" nil="true"/>
+                <average_rating>4.00</average_rating>
+                <best_book type="Book">
+                    <id type="integer">547094</id>
+                    <title>I Am Legend and Other Stories</title>
+                    <author>
+                        <id type="integer">8726</id>
+                        <name>Richard Matheson</name>
+                    </author>
+                    <image_url>https://images.gr-assets.com/books/1317791583m/547094.jpg</image_url>
+                    <small_image_url>https://images.gr-assets.com/books/1317791583s/547094.jpg</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">11283577</id>
+                <books_count type="integer">88</books_count>
+                <ratings_count type="integer">253478</ratings_count>
+                <text_reviews_count type="integer">14756</text_reviews_count>
+                <original_publication_year type="integer">2010</original_publication_year>
+                <original_publication_month type="integer">11</original_publication_month>
+                <original_publication_day type="integer">2</original_publication_day>
+                <average_rating>4.01</average_rating>
+                <best_book type="Book">
+                    <id type="integer">7933292</id>
+                    <title>Heaven is for Real: A Little Boy's Astounding Story of His Trip to Heaven and Back</title>
+                    <author>
+                        <id type="integer">3446736</id>
+                        <name>Todd Burpo</name>
+                    </author>
+                    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">25457412</id>
+                <books_count type="integer">95</books_count>
+                <ratings_count type="integer">138481</ratings_count>
+                <text_reviews_count type="integer">10080</text_reviews_count>
+                <original_publication_year type="integer">2014</original_publication_year>
+                <original_publication_month type="integer">7</original_publication_month>
+                <original_publication_day type="integer">8</original_publication_day>
+                <average_rating>4.07</average_rating>
+                <best_book type="Book">
+                    <id type="integer">18126198</id>
+                    <title>Four: A Divergent Story Collection (Divergent, #0.1 - 0.4)</title>
+                    <author>
+                        <id type="integer">4039811</id>
+                        <name>Veronica Roth</name>
+                    </author>
+                    <image_url>https://images.gr-assets.com/books/1393687572m/18126198.jpg</image_url>
+                    <small_image_url>https://images.gr-assets.com/books/1393687572s/18126198.jpg</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">445057</id>
+                <books_count type="integer">85</books_count>
+                <ratings_count type="integer">62533</ratings_count>
+                <text_reviews_count type="integer">1749</text_reviews_count>
+                <original_publication_year type="integer">1979</original_publication_year>
+                <original_publication_month type="integer" nil="true"/>
+                <original_publication_day type="integer" nil="true"/>
+                <average_rating>3.95</average_rating>
+                <best_book type="Book">
+                    <id type="integer">19581</id>
+                    <title>Ghost Story</title>
+                    <author>
+                        <id type="integer">6941</id>
+                        <name>Peter Straub</name>
+                    </author>
+                    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">4512687</id>
+                <books_count type="integer">113</books_count>
+                <ratings_count type="integer">62012</ratings_count>
+                <text_reviews_count type="integer">3309</text_reviews_count>
+                <original_publication_year type="integer">2006</original_publication_year>
+                <original_publication_month type="integer">10</original_publication_month>
+                <original_publication_day type="integer">24</original_publication_day>
+                <average_rating>3.67</average_rating>
+                <best_book type="Book">
+                    <id type="integer">10566</id>
+                    <title>Lisey's Story</title>
+                    <author>
+                        <id type="integer">3389</id>
+                        <name>Stephen King</name>
+                    </author>
+                    <image_url>https://images.gr-assets.com/books/1316346037m/10566.jpg</image_url>
+                    <small_image_url>https://images.gr-assets.com/books/1316346037s/10566.jpg</small_image_url>
+                </best_book>
+            </work>
+        </results>
+    </search>
+</GoodreadsResponse>
