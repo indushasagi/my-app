@@ -8,28 +8,22 @@ function BuildResult(props) {
 	let tableData = <div>No data to show</div>;
 	const works = props.resultData && props.resultData.results && props.resultData.results.work && props.resultData.results.work;
 	if(works && works.length > 0)	{
-		tableData = <table>
-				<thead>
-					<tr>
-						<td>ID</td>
-						<td>Book</td>
-						<td>Author</td>
-					</tr>
-				</thead>
-				<tbody>
+		tableData = <div>
 					{
 						works.map((data, i) => {
-							return (
-								<tr key={i}>
-									<td>{data.best_book.id._text}</td>
-									<td>{data.best_book.title._text}</td>
-									<td>{data.best_book.author.name._text}</td>
-								</tr>
+							return (								
+									<div className="resp" key={i}>
+										<figure>
+											<img src={data.best_book.image_url._text}/><br/>
+										</figure>
+											ID: {data.best_book.id._text} <br/>
+											Title: {data.best_book.title._text} <br/> 
+											Author: {data.best_book.author.name._text}<br/>
+									</div>
 							)
 						})
 					}
-				</tbody>
-			</table>;
+			</div>;
 	}
 	return (
 		<div>
@@ -66,6 +60,7 @@ class App extends Component {
 				var pjson = JSON.parse(result1);
 				var goodRes = pjson.GoodreadsResponse;
 				var search = goodRes.search;
+				console.log(search);
 				self.setState({ resu: search });
 			}).catch((e) => {
 				console.error(e);
@@ -80,15 +75,19 @@ class App extends Component {
 				<header className="App-header">
 					<p>Search Book By Name</p>
 				</header>
-				<form onSubmit={this.handleSubmit}>
-					<div className="form-group">
-						<label> Search Book:</label>
-						<input type="text" className="form-control search" id="search" placeholder="Search book by name" onChange={this.handleChange} /><br />
-						<input type="submit" value="Submit" />
-					</div>
-				</form>
-				<BuildResult resultData={this.state.resu} />
 
+				<div className="col-lg-12">
+					<form onSubmit={this.handleSubmit}>
+						<div className="form-group">
+							<label> Search Book:</label>
+							<input type="text" className="form-control search" id="search" placeholder="Search book by name" onChange={this.handleChange} /><br />
+							<input type="submit" value="Submit" />
+						</div>
+					</form>
+					<div>
+						<BuildResult resultData={this.state.resu} />
+					</div>
+				</div>
 			</div>
 		);
 	}
