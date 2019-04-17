@@ -4,32 +4,34 @@ import 'react-native-xml2js';
 import axios from 'axios';
 import convert from 'xml-js';
 
-function BuildResult(props) {
-	let tableData = <div>No data to show</div>;
-	const works = props.resultData && props.resultData.results && props.resultData.results.work && props.resultData.results.work;
-	if(works && works.length > 0)	{
-		tableData = <div>
-					{
-						works.map((data, i) => {
-							return (								
-									<div className="resp" key={i}>
-										<figure>
-											<img src={data.best_book.image_url._text}/><br/>
-										</figure>
-											ID: {data.best_book.id._text} <br/>
-											Title: {data.best_book.title._text} <br/> 
-											Author: {data.best_book.author.name._text}<br/>
-									</div>
-							)
-						})
-					}
-			</div>;
+class BuildResult extends Component {
+	render(){
+		let tableData = <div>No data to show</div>;
+		const works = this.props.resultData && this.props.resultData.results && this.props.resultData.results.work;
+		if(works && works.length > 0)	{
+			tableData = <div>
+						{
+							works.map((data, i) => {
+								return (								
+										<div className="resp" key={i}>
+											<figure>
+												<img src={data.best_book.image_url._text}/><br/>
+											</figure>
+												ID: {data.best_book.id._text} <br/>
+												Title: {data.best_book.title._text} <br/> 
+												Author: {data.best_book.author.name._text}<br/>
+										</div>
+								)
+							})
+						}
+				</div>;
+		}
+		return (
+			<div>
+				{tableData}
+			</div>
+		);
 	}
-	return (
-		<div>
-			{tableData}
-		</div>
-	);
 }
 
 class App extends Component {
@@ -51,15 +53,15 @@ class App extends Component {
 
 	handleSubmit(event) {
 		event.preventDefault();
-		var self = this;
-		var xmlDoc;
+		let self = this;
+		let xmlDoc;
 		axios.get('http://cors-anywhere.herokuapp.com/https://www.goodreads.com/search.xml?key=WxrIkPORqNnXPgTZyxjQ&q=' + encodeURIComponent(this.state.book))
 			.then((response) => {
 				xmlDoc = response.data;
-				var result1 = convert.xml2json(xmlDoc, { compact: true, spaces: 4 });
-				var pjson = JSON.parse(result1);
-				var goodRes = pjson.GoodreadsResponse;
-				var search = goodRes.search;
+				let result1 = convert.xml2json(xmlDoc, { compact: true, spaces: 4 });
+				let pjson = JSON.parse(result1);
+				let goodRes = pjson.GoodreadsResponse;
+				let search = goodRes.search;
 				console.log(search);
 				self.setState({ resu: search });
 			}).catch((e) => {
